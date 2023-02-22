@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #4a12ff;
+  color: #202124;
+}
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+.header-top ul {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+.h-icon {
+  width: 35px;
+  height: 35px;
+}
+section {
+  margin: 0 30px auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.list-todo-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+.list-todo-img-no {
+  display: none;
+}
+
+.new-task {
+  display: flex;
+  font-size: 15px;
+  font-weight: bold;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  background-color: #ffffff;
+  max-width: 300px;
+  border-radius: 0.25rem;
+  margin: 100px 0px;
+}
+form {
+  padding: 0.75rem 0.75rem 0.25rem;
+}
+.form-title {
+  display: flex;
+  justify-content: space-between;
+}
+h5 {
+  font-size: 18px;
+  margin: 0;
+  font-weight: bold;
+}
+.close:focus,
+.close:hover {
+  color: #202124;
+  text-decoration: none;
+  opacity: 1;
+}
+.close {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 1;
+  color: #202124;
+  text-shadow: none;
+  opacity: 1;
+}
+.label {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-size: inherit;
+}
+.form-control,
+.font-control-sm {
+  width: 275px;
+  font-size: 15px;
+}
+.add-btns {
+  margin: 15px 0px;
+  display: flex;
+  justify-content: space-around;
+}
+.list-group {
+  width: 100%;
+  margin-top: 20px;
+  max-width: 300px;
+}
+.list-group-item {
+  padding: 0.75rem 0.75rem 0.25rem;
+  margin-bottom: 5px;
+  background-color: #ffffff;
+}
+.mb-1 {
+  margin-bottom: 2px !important;
+}
+.list-title {
+  font-size: 18px;
+}
+.input-group-text {
+  border: none;
+  background-color: #ffffff;
+  padding: 0;
+  margin-top: 4px;
+  margin-left: 10px;
+}
+label {
+  display: block;
+}
+.list-p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: small;
+}
+small {
+  font-weight: 400;
+  font-size: 12px;
+}
+footer {
+  margin: 15px;
+}
+.plus-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin: 20px;
+}
+.plus-radius {
+  background-color: #ffffff;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  font-size: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

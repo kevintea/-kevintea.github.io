@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./main.js"></script>
+    <title>ToDo List - Early</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-top">
+        <ul>
+          <li class="h-icon">
+            <img
+              class="h-icon"
+              src="./assets/open-menu.png"
+              alt="burger icon"
+            />
+          </li>
+          <li>
+            <img class="h-icon" src="./assets/logo.png" alt="logo icon" />
+          </li>
+          <li>
+            <img class="h-icon" src="./assets/profile.png" alt="account icon" />
+          </li>
+        </ul>
+      </div>
+    </header>
+    <section>
+
+      <!-- Icono sin notas -->
+
+      <!-- <div id="">
+        <div class="list-todo-img">
+          <img
+            src="./assets/like.png"
+            alt="Fondo al dia"
+            width="200"
+            height="200"
+          />
+        </div> -->
+
+<!-- NOTAS -->
+
+<div id="" class="list-group">
+  <a
+    class="list-group-item list-group-item-action flex-column align-items-start"
+  >
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1 list-title">Pendiente el JS</h5>
+      <div class="custom-control custom-checkbox">
+        <input
+          type="checkbox"
+          class="custom-control-input"
+          id="customCheck1"
+        />
+        <label class="custom-control-label" for="customCheck1"
+          >
+          <span class="input-group-text" id="basic-addon1">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+<path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z"></path>
+<path fill-rule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z"></path>
+</svg>
+          </span>
+      </div>
+      
+    </div>
+    <p class="mb-1 list-p">Aun falta pero le vamo metiendo!</p>
+    <small class="text-muted">Trabajo 💻</small>
+  </a>
+
+
+<a
+class="list-group-item list-group-item-action flex-column align-items-start"
+>
+<div class="d-flex w-100 justify-content-between">
+  <h5 class="mb-1 list-title">Regar Plantas!</h5>
+  <div class="custom-control custom-checkbox">
+    <input
+      type="checkbox"
+      class="custom-control-input"
+      id="customCheck2"
+    />
+    <label class="custom-control-label" for="customCheck2"
+      >
+      <span class="input-group-text" id="basic-addon1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+<path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z"></path>
+<path fill-rule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z"></path>
+</svg>
+      </span>
+  </div>
+  
+</div>
+<p class="mb-1 list-p">Potus y Palo de lluvia (una vez por semana)</p>
+<small class="text-muted">Plantas 🪴</small>
+</a>
+
+<a
+    class="list-group-item list-group-item-action flex-column align-items-start"
+  >
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1 list-title">Sacar la torta del horno!</h5>
+      <div class="custom-control custom-checkbox">
+        <input
+          type="checkbox"
+          class="custom-control-input"
+          id="customCheck3"
+        />
+        <label class="custom-control-label" for="customCheck3"
+          >
+          <span class="input-group-text" id="basic-addon1">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+<path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z"></path>
+<path fill-rule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z"></path>
+</svg>
+          </span>
+      </div>
+      
+    </div>
+    <p class="mb-1 list-p">Se me llena la cocina de humo! 😶‍🌫️</p>
+    <small class="text-muted">Comida 🍳</small>
+  </a>
+
+
+</div>
+
+      <!-- apretando el "+" sale el emergente -->
+
+      <div  id="" class="new-task">
+        <form>
+            <div class="form-title">
+              <h5>NUEVA TAREA:</h5>
+              <button type="button" class="close" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <label class="label" for="exampleFormControlTextarea1"
+              >Nombre:</label
+            >
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="1"
+            ></textarea>
+            <label class="label" for="exampleFormControlSelect1"
+              >Tipo de Tarea:</label
+            >
+            <select
+              class="form-control form-control-sm"
+              id="exampleFormControlSelect1"
+            >
+              <option>Trabajo 💻</option>
+              <option>Viajes 🗺</option>
+              <option>Plantas 🪴</option>
+              <option>Hogar 🏡</option>
+              <option>Comida 🍳</option>
+              <option>Animales 🐾</option>
+              <option>Musica 🎶</option>
+              <option>Otro +</option>
+            </select>
+            <label class="label" for="exampleFormControlTextarea1"
+              >Descripción:</label
+            >
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="3"
+            ></textarea>
+            <div class="add-btns">
+              <button type="button" class="btn btn-primary">Agregar</button>
+              <button type="button" class="btn btn-danger">Cancelar</button>
+            </div>
+        </form>
+      </div>
+
+      
+    </section>
+    <footer>
+      <div class="plus-icon">
+        <button type="button" class="btn btn-light plus-radius">+</button>
+      </div>
+    </footer>
+  </body>
+</html>
