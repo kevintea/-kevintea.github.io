@@ -5,30 +5,38 @@
 
 body {
   color: #ede7f6;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   text-align: center;
   background: linear-gradient(#43c6ac, #191654);
   height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
   padding: 20px;
-  min-height: 20vh;
+  width: 100%;
+  height: 35vh;
 }
 header h1 {
-  color: #ede7f6;
-  font-size: 21px;
+  font-size: 20px;
   margin: 10px 10px 3px;
 }
 header h2 {
-  color: #ede7f6;
-  font-size: 17px;
+  font-size: 18px;
   margin: 0px 0px 30px;
 }
+
+.foto {
+}
+
 .avatar {
   border-radius: 100%;
   border: 3px solid #ede7f6;
+}
+
+.btn-list {
 }
 
 nav ul {
@@ -36,27 +44,39 @@ nav ul {
   padding: 0;
   list-style: none;
 }
+
 nav li {
   display: inline-block;
 }
+
 nav a:link,
 nav a:visited {
   text-decoration: none;
   margin: 20px 15px 20px;
   filter: invert(0.9);
 }
+
 nav a img {
   width: 35px;
   height: 35px;
 }
+/*  */
+section {
+  height: 60vh;
+  padding: 20px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+}
 
 .text {
-  padding: 10px 10px;
+  /* padding: 10px 10px;
   max-width: 360px;
-  margin: 0 auto;
+  margin: 0 auto; */
 }
 .btns {
-  margin: 0 0 35px 0;
+  /* margin: 0 0 35px 0; */
 }
 section ul {
   margin: 0 auto;
@@ -65,32 +85,31 @@ section ul {
   max-width: 500px;
 }
 section li {
-  margin: 25px 10%;
+  margin: 10px;
 }
 section a:link,
 section a:visited {
   background-color: #327482;
   width: 100%;
-  font-size: 1.07em;
   display: inline-block;
-  padding: 10px;
+  padding: 5px;
   text-decoration: none;
   border: 1px solid #ede7f6;
-  border-radius: 5px;
+  border-radius: 10px;
   color: #ede7f6;
+  margin: 5px;
 }
 section ul li a:hover,
 section ul li a:active {
   background-color: #104781;
 }
+/*  */
 
 footer {
-  min-height: 10vh;
+  height: 5vh;
   width: 100%;
-  font-size: 13px;
-  position: fixed;
-  bottom: 0px;
-  padding: 25px 25px 15px;
+  font-size: 10px;
+  margin-bottom: 20px;
 }
 footer a:link,
 footer a:visited {
@@ -107,4 +126,5 @@ hr {
 .ft {
   display: flex;
   justify-content: space-between;
+  padding: 0px 20px;
 }
