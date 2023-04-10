@@ -21,11 +21,12 @@ header {
 }
 header h1 {
   font-size: 20px;
-  margin: 10px 10px 3px;
+  margin: 10px 0px 3px;
 }
 header h2 {
-  font-size: 18px;
-  margin: 0px 0px 30px;
+  font-size: 16px;
+  margin: 0px 0px 25px;
+  font-weight: 500;
 }
 
 .foto {
@@ -89,19 +90,21 @@ section li {
 }
 section a:link,
 section a:visited {
-  background-color: #327482;
-  width: 100%;
+  background-color: #cbcbcb7d;
+  width: 90%;
   display: inline-block;
   padding: 5px;
   text-decoration: none;
-  border: 1px solid #ede7f6;
+  border: 2px solid #ede7f6;
   border-radius: 10px;
   color: #ede7f6;
   margin: 5px;
+  height: 35px;
+  text-align: center;
 }
 section ul li a:hover,
 section ul li a:active {
-  background-color: #104781;
+  background-color: transparent;
 }
 /*  */
 
@@ -126,5 +129,5 @@ hr {
 .ft {
   display: flex;
   justify-content: space-between;
-  padding: 0px 20px;
+  padding: 0px 30px 0px;
 }
