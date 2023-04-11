@@ -27,7 +27,7 @@ header {
   font: 13px/27px Arial, sans-serif;
 }
 
-/*header*/
+/*---------------------------------------------------------*/
 
 .nav-bar {
   height: 100%;
@@ -46,11 +46,9 @@ header {
   margin-left: 8px;
   color: #4d5156;
 }
-
 .nav-bar a {
   color: rgba(0, 0, 0, 0.87);
 }
-
 .nav-link:hover {
   text-decoration: underline;
 }
@@ -61,12 +59,6 @@ header {
 }
 .li-svg {
   padding-left: 10px;
-}
-.hidden {
-  display: none !important;
-}
-.rounder--full {
-  border-radius: 50%;
 }
 
 .chocolatteBtn:hover,
@@ -97,9 +89,7 @@ svg {
   width: 100%;
   fill: currentColor;
 }
-.user-text {
-  padding: 0 0 0 15px;
-}
+
 .menu-icon,
 .user-text-icon span {
   font-family: Roboto, Arial, sans-serif;
@@ -115,10 +105,6 @@ svg {
   border-radius: 50%;
   text-align: center;
   line-height: 30px;
-}
-
-.block {
-  display: block;
 }
 
 .header__drop-down {
@@ -181,8 +167,11 @@ svg {
 .choco-link-black {
   color: #202124 !important;
 }
+.rounder--full {
+  border-radius: 50%;
+}
 
-/*content*/
+/*---------------------------------------------------------------------*/
 .content-section {
   flex-grow: 1;
   display: flex;
@@ -206,14 +195,7 @@ svg {
   object-position: center bottom;
   width: auto;
 }
-.lupa {
-  fill: #9aa0a6;
-  width: 20px;
-  height: 20px;
-  line-height: 20px;
-  margin-top: -2px;
-  margin-right: 10px;
-}
+/* ------------------------------------------------------------ */
 .search-bar {
   border: 1px solid #dfe1e5;
   width: 600px;
@@ -242,6 +224,17 @@ svg {
 .search-bar input:focus {
   outline: none;
 }
+
+.lupa {
+  fill: #9aa0a6;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  margin-top: -2px;
+  margin-right: 10px;
+}
+/* --------------------------------------------------- */
+
 .search-btns {
   margin-top: 20px;
 }
@@ -264,6 +257,8 @@ svg {
 .lucky-search-btn {
   width: 140px;
 }
+
+/* ----------------------------------------------------------------- */
 .language {
   margin-top: 25px;
   font-size: 13px;
@@ -273,7 +268,7 @@ svg {
   color: #1a0dab;
 }
 
-/*footer */
+/*------------------------------------------------------------------- */
 
 footer {
   width: 100%;
@@ -316,6 +311,13 @@ a.button-left-footer,
   white-space: nowrap;
   text-decoration: none;
   color: #70757a;
+}
+/* ------------------------------------------------------------- */
+.hidden {
+  display: none;
+}
+.block {
+  display: block;
 }
 
 /*mobile and tablet mode 
